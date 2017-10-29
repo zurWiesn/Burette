@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/jdhodges27/Burette/Mk4.pdf" /> </p>
+<p align="center"><img src="https://github.com/jdhodges27/Burette/dist/Mk4.pdf" /> </p>
 
 ## Alexa Skills Kit SDK for Node.js
 
