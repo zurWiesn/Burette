@@ -1,3 +1,5 @@
+<p align="center"><img src="/dist/Mk4.pdf" /> </p>
+
 ## Alexa Skills Kit SDK for Node.js
 
 ## Overview
