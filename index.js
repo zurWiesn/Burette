@@ -22,12 +22,12 @@ const handlers = {
       }
     },
     'AMAZON.HelpIntent': function () {
-      this.emit(':tell', 'help');;
+      this.emit(':tell', 'Burette can give you information on your digital ocean droplets. tell burette status to recieve information');;
     },
     'AMAZON.CancelIntent': function () {
-      this.emit(':tell', 'cancel');
+      this.emit(':tell', 'canceled');
     },
     'AMAZON.StopIntent': function () {
-      this.emit(':tell', 'stop');
+      this.emit(':tell', 'stopping');
     },
 };
