@@ -20,5 +20,5 @@ Start Droplet
 ##### Stop
 Stop Droplet
 
-#Status (Work to be Done)
+# Status (Work to be Done)
 Getting Burette to sync with Digital Ocean
