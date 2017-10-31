@@ -24,6 +24,9 @@ const handlers = {
     'StartIntent': function () {
       var droplet = parseInt(this.event.request.intent.slots.number.value);
     },
+    'ShutdownIntent': function () {
+      var droplet = parseInt(this.event.request.intent.slots.number.value);
+    },
     'AMAZON.HelpIntent': function () {
       this.emit(':tell', 'Burette can give you information on your digital ocean droplets. tell burette status to recieve information');
     },
