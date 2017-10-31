@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/zurWiesn/Burette/tree/master/dist/Mk4.png" /> </p>
+<p align="center"><img src="https://raw.githubusercontent.com/zurWiesn/Burette/master/dist/Mk4.png" /> </p>
 
 # Burette
 
