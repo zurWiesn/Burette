@@ -21,8 +21,11 @@ const handlers = {
         this.emit(':tell', token);
       }
     },
+    'StartIntent': function () {
+      var droplet = parseInt(this.event.request.intent.slots.number.value);
+    },
     'AMAZON.HelpIntent': function () {
-      this.emit(':tell', 'Burette can give you information on your digital ocean droplets. tell burette status to recieve information');;
+      this.emit(':tell', 'Burette can give you information on your digital ocean droplets. tell burette status to recieve information');
     },
     'AMAZON.CancelIntent': function () {
       this.emit(':tell', 'canceled');
